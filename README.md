@@ -20,7 +20,7 @@ Once you have finished the home page using flex box module, go build the service
 * [ ] Home Page Refactor:
   * Note that the provided HTML is blank.  This is because I want you to use your code from yesterday if possible.  If you didn't finish, that's fine, just use the solution from yesterday
   * Refactor the home page layout with flexbox where `inline-block` was used before.
-  * In your navigation elements, point the services `<a href=""></a>` to `services.html`
+  * [x] In your navigation elements, point the services `<a href=""></a>` to `services.html`
 
 * [ ] Services Page Build:
   * Update the title in your newly copied services page to say `Great Idea! - Services`

@@ -64,18 +64,18 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
+/*General*/
 body {
 	width: 876px;
 	margin: 0 auto;
 }
 
-a, p {
-	font-family: roboto;
+p {
+font-family: roboto;
 }
 
-
 a {
+	font-family: roboto;
 	text-decoration:none;
 	color:grey;
 }
@@ -89,67 +89,42 @@ h1 {
 	font-size:4.2em;
 }
 
+/*Nav*/
 header {
 	position:sticky;
 	top:0;
-}
-
-nav {
 	background-color: #c0caeb;
-	padding: 20px 5px;
-}
-nav .first-anchor {
-  margin-left: 10px;
-}
-
-nav a, nav img{
-	display:inline-block;
-	vertical-align: middle;
-	margin:20px;
+	padding:0 1vw;
+	/*Flex Container*/
+	display: flex;
+	justify-content: space-between;
 }
 
-nav img {
-	margin:0 10px 0 26px;
-	width:200px;
+header nav {
+	/*Flex Container*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*Flex Element*/
+	flex-grow: 0.5;
 }
 
-.row-1, .row-2, .row-3, .row-4, .row-5 {
-	padding:40px 0 ;
+header img {
+	/*Flex Element*/
+	flex-grow: 1;
 }
 
-.row-1 .column {
-	display: inline-block;
-	width:49.7%;
-	vertical-align: top;
-	text-align:center;
-}
+/*Row 1*/
 
-.row-1 .column h1 {
-	width:269px;
-	margin: 0 auto;
-	padding:40px 0;
-}
 
+/*Row 1 - Button Style*/
 .row-1 .column a {
 	border: 1px black solid;
 	padding:10px;
-
 }
 
 .row-2 {
 	border-top: 2px black solid;
-}
-
-.row-2 .column  {
-	display: inline-block;
-	width:48%;
-	margin-right:8px;
-}
-
-.row-4 .column  {
-	display: inline-block;
-	width:32%;
-	margin-right:8px;
 }
 
 .row-5 {
