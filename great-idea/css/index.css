@@ -94,6 +94,16 @@ h2 {
 	font-size: 2em;
 }
 
+ul {
+	margin-left: 20px;
+
+	list-style-type: square;
+}
+
+ul li {
+	padding: 8px;
+}
+
 .column {
 	margin-right: 20px;
 }
@@ -189,12 +199,12 @@ footer {
 .services {
 	padding-bottom: 30px;
 	margin-bottom: 20px;
-	border-bottom: 1px solid #000;
+	border-bottom: 2px solid #000;
 	/*Flex Container*/
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between
+	justify-content: space-between;
 }
 
 .services div {
@@ -222,4 +232,19 @@ a.cta-box {
 	background-color: #fff;
 	color:black;
 }
+/*Facts */
 
+.facts {
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	/*Flex Container*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.facts div {
+	padding:10px;
+	margin: 20px 0;
+	width:48%;
+}
