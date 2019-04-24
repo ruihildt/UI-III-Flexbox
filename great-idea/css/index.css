@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
 /*General*/
 body {
 	width: 876px;
@@ -87,6 +88,10 @@ a:hover {
 
 h1 {
 	font-size:4.2em;
+}
+
+h2 {
+	font-size: 2em;
 }
 
 .column {
@@ -158,7 +163,6 @@ header img {
 	display: flex;
 }
 
-
 .row-5 {
 	width:200px;
 }
@@ -166,4 +170,17 @@ header img {
 footer {
 	text-align:center;
 	margin: 20px 0;
+}
+
+/*Page Services*/
+
+.entry  {
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #000;
+}
+
+.services-header-img {
+	width:100%;
+	margin-bottom: 20px;
 }
