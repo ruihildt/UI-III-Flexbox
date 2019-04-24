@@ -94,7 +94,7 @@ header {
 	position:sticky;
 	top:0;
 	background-color: #c0caeb;
-	padding:0 1vw;
+	padding:10px 1vw;
 	/*Flex Container*/
 	display: flex;
 	justify-content: space-between;
@@ -115,17 +115,43 @@ header img {
 }
 
 /*Row 1*/
+.row-1 {
+	/*Flex Container*/
+	display: flex;
+}
 
+.row-1 .column{
+	padding: 40px 0;
+}
 
-/*Row 1 - Button Style*/
+.row-1 .column:first-child {
+	/*Flex Container*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.row-1 .column:first-child h1 {
+	text-align: center;
+}
+
 .row-1 .column a {
+	/*button style*/
 	border: 1px black solid;
 	padding:10px;
 }
 
+/*Row 2*/
 .row-2 {
+	/*Row Line separator*/
 	border-top: 2px black solid;
+	/*Flex Container*/
+	display: flex;
 }
+
+
+
 
 .row-5 {
 	width:200px;
